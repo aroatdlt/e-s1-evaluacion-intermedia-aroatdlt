@@ -1,0 +1,34 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #3CDBC0;
+}
+
+header {
+    width: 100%;
+    flex-flow: row;
+    position: fixed;
+    color: #4a4a4a;
+    border: 5px solid black;
+}
+
+a {
+    margin: 12px;
+}
+
+.options {
+    list-style-type: none;
+    display: inline-block;
+    max-width: 40%;
+}
+
+li{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+p {
+    color: #FFFFFF;
+}
