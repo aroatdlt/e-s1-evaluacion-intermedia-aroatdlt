@@ -36,6 +36,7 @@ a {
 .options {
     list-style-type: none;
     max-width: 40%;
+    text-transform: uppercase;
 }
 
 li{
