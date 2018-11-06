@@ -2,6 +2,7 @@
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,34 +30,38 @@ body {
 
 .options {
     list-style-type: none;
-    max-width: 40%;
     text-transform: uppercase;
 }
 
-li{
-    display: inline-block;
-    box-sizing: border-box;
-}
-
 .blog {
-    box-sizing: border-box;
     margin: 10px 20px 13px 0;
+    display: inline-block;
 }
 .contact { 
-    box-sizing: border-box;
     margin: 10px 0 13px 0;
+    display: inline-block;
 }
 
 /* MAIN */
 
-p {
+.principal_text {
+    position: relative;
+}
+
+.text {
     font-size: 30px;
-    display: inline-block;
+    font-weight: 900;
+    text-transform: capitalize;
     height: 100vh;
-    box-sizing: border-box;
     padding-top: 200px;
     color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+
 
 /* STYLES FOR TABLET */
 
