@@ -8,16 +8,10 @@ body {
     background-color: #3CDBC0;
 }
 
-p {
-    font-size: 30px;
-    display: inline-block;
-    height: 100vh;
-    box-sizing: border-box;
-    padding-top: 200px;
-    color: #ffffff;
-}
 
-header {
+/* HEADER */
+
+.menu_web {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,7 +22,7 @@ header {
     align-items: center;
 }
 
-a {
+.logo {
     margin-top: 20px;
     width: 155px;
 }
@@ -52,6 +46,19 @@ li{
     box-sizing: border-box;
     margin: 10px 0 13px 0;
 }
+
+/* MAIN */
+
+p {
+    font-size: 30px;
+    display: inline-block;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 200px;
+    color: #ffffff;
+}
+
+/* STYLES FOR TABLET */
 
 @media all and (min-width:767px){
     
