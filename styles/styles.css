@@ -71,6 +71,7 @@ body {
     font-size: 30px;
     font-weight: 900;
     text-transform: capitalize;
+    text-align: center;
     height: 100vh;
     padding-top: 200px;
     color: #ffffff;
@@ -80,7 +81,3 @@ body {
     transform: translate(-50%);
 }
 
-
-@media all and (min-width:767px){
-    
-}
