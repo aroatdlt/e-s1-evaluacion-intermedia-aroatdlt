@@ -31,6 +31,7 @@ body {
 .options {
     list-style-type: none;
     text-transform: uppercase;
+    font-size: 16px;
 }
 
 .blog {
@@ -40,6 +41,24 @@ body {
 .contact { 
     margin: 10px 0 13px 0;
     display: inline-block;
+}
+
+@media all and (min-width:767px){
+    .menu_web {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: 20px 0 20px 30px;
+    }
+
+    .options {
+        margin-right: 30px;
+    }
+    
 }
 
 /* MAIN */
@@ -61,9 +80,6 @@ body {
     transform: translate(-50%);
 }
 
-
-
-/* STYLES FOR TABLET */
 
 @media all and (min-width:767px){
     
