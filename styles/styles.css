@@ -68,6 +68,11 @@
 
 /* MAIN */
 
+.container_text {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .text {
     font-size: 30px;
     font-weight: 900;
