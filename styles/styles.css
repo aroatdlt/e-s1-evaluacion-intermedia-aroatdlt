@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
+.content {
     background-color: #3CDBC0;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 155px;
 }
 
@@ -48,7 +48,7 @@ body {
     color: #4a4a4a;
 }
 
-@media all and (min-width:767px){
+@media all and (min-width:768px){
     .menu_web {
         display: flex;
         flex-direction: row;
@@ -60,7 +60,7 @@ body {
         margin: 20px 0 20px 30px;
     }
 
-    .options {
+    .contact {
         margin-right: 30px;
     }
     
@@ -68,21 +68,22 @@ body {
 
 /* MAIN */
 
-.principal_text {
-    position: relative;
-}
-
 .text {
     font-size: 30px;
     font-weight: 900;
     text-transform: capitalize;
-    text-align: center;
     height: 100vh;
-    padding-top: 200px;
+    padding: 300px 30px 0 30px;
     color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+    margin: auto;
+    text-align: center;
+    max-width: 260px;
+}
+
+@media all and (min-width:768px){
+    .text {
+        font-size: 40px;
+        padding-top: 360px;
+    }
 }
 
