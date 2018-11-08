@@ -7,6 +7,7 @@
 
 .content {
     background-color: #3CDBC0;
+    color: #4a4a4a;
 }
 
 
@@ -18,7 +19,6 @@
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    color: #4a4a4a;
     background-color: white;
     align-items: center;
 }
@@ -30,7 +30,7 @@
 
 .options {
     list-style-type: none;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     font-size: 16px;
 }
 
