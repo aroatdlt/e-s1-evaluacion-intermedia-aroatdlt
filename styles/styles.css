@@ -6,6 +6,8 @@
 }
 
 .content {
+    font-size: 16px;
+    font-weight: 400;
     background-color: #3CDBC0;
     color: #4a4a4a;
 }
@@ -31,7 +33,6 @@
 .options {
     list-style-type: none;
     text-transform: uppercase; 
-    font-size: 16px;
 }
 
 .blog {
@@ -68,27 +69,41 @@
 
 /* MAIN */
 
+.main {
+    min-height: 100vh;
+    display: flex;
+}
+
 .container_text {
-    display: inline-block;
+    flex-grow: 1;
     text-decoration: none;
+    position: relative;
 }
 
 .text {
     font-size: 30px;
     font-weight: 900;
     text-transform: capitalize;
-    height: 100vh;
-    padding: 300px 30px 0 30px;
     color: #ffffff;
-    margin: auto;
     text-align: center;
-    max-width: 260px;
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+
 }
 
 @media all and (min-width:768px){
+    .main {
+    padding-top: 100px;
+    }
+
     .text {
-        font-size: 40px;
-        padding-top: 360px;
+    font-size: 40px;
+    max-width: 230px;
+    padding-top: 20px;    
     }
 }
 
